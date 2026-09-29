@@ -1,0 +1,34 @@
+/* Security settings page + profile section. Scoped to the extension's own markup. */
+
+.fw-ext-security .upw-sec-lede { max-width: 60em; }
+.fw-ext-security .upw-sec-tabs.nav-tab-wrapper { margin: .4em 0 1.2em; }
+.fw-ext-security .upw-sec-panel { display: none; }
+.fw-ext-security .upw-sec-panel.is-active { display: block; }
+.fw-ext-security .upw-sec-status td { vertical-align: middle; }
+.fw-ext-security .upw-sec-status code { margin-left: .5em; }
+.fw-ext-security .upw-sec-tools p { margin: 0 0 1em; }
+.fw-ext-security .upw-sec-tools .description { margin-left: .5em; }
+.fw-ext-security .upw-sec-probe.is-bad { color: #b32d2e; }
+.fw-ext-security .upw-sec-probe.is-good { color: #007017; }
+
+.upw-sec-pill {
+	display: inline-block;
+	min-width: 2.6em;
+	padding: 0 .6em;
+	border-radius: 1em;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: 600;
+	text-align: center;
+}
+.upw-sec-pill.is-on { background: #e7f5ea; color: #00632b; }
+.upw-sec-pill.is-off { background: #f0f0f1; color: #50575e; }
+
+.upw-2fa .upw-2fa-qr { width: 200px; margin: .75em 0; background: #fff; }
+.upw-2fa .upw-2fa-qr svg { display: block; width: 100%; height: auto; }
+.upw-2fa .upw-2fa-setup ol { margin-left: 1.2em; }
+.upw-2fa .upw-2fa-setup li { margin-bottom: 1em; }
+.upw-2fa .upw-2fa-secret { letter-spacing: .08em; }
+.upw-2fa .upw-2fa-code-list { display: inline-block; padding: .75em 1.25em; background: #f6f7f7; border: 1px solid #dcdcde; font-size: 14px; line-height: 1.7; }
+.upw-2fa .upw-2fa-msg.is-error,
+.upw-2fa .upw-2fa-warn { color: #b32d2e; }
