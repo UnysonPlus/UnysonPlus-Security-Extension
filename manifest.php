@@ -13,7 +13,7 @@ $manifest['description'] = __(
 
 $manifest['thumbnail']   = 'thumbnail.svg';
 
-$manifest['version']     = '1.0.4';
+$manifest['version']     = '1.0.5';
 $manifest['display']     = true;
 $manifest['standalone']  = true;
 
